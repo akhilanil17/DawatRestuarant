@@ -1,0 +1,252 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif ;
+}
+.mainTitle{
+    font-family: 'Dancing Script', cursive;
+}
+.subHeading1{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.subHeading2{
+    font-family: 'Lato', sans-serif;
+}
+.topBar {
+    width: 100%;
+    height: 30px;
+    padding-left: 60px;
+    border-bottom: solid 1px white;
+    position: relative;
+    z-index: 10;
+    float: left;
+}
+.topBar p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 40%;
+    vertical-align: top;
+    font-size: 12px;
+    color: white;
+    margin-top: 8px;
+    font-family: 'Lato', sans-serif !important;
+}
+.topBar img{
+    width: 14px;
+    margin: 13px;
+}
+.A, .B{
+    width:50%;
+    float: left;
+    text-align: center;
+}
+.B ul{
+    list-style-type: none;
+    overflow: hidden;
+    float: left;
+}
+.B li{
+    float: left;
+}
+.BookATable{
+    background: #df4002;
+    color: white;
+    width: 150px;
+    height: 30px;
+    float: left;
+    font-size: 0.8rem;
+    border: none;
+    margin-top: -9px;
+}
+.frontPage{
+    width:100%;
+    margin-top: -52px;
+    position: relative !important;
+    float: left;
+}
+.frontPage img{
+    width:100%;
+    height: 640px;
+    margin-top: -52px;
+    filter: brightness(40%);
+    object-fit: cover;
+}
+.frontPage h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+.frontPage h4{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 4rem;
+}
+.frontPageBox{
+    border: solid 1px white;
+    width: 200px;
+    font-family: 'Lato', sans-serif;
+    height: 30px;
+    margin: 1rem 21rem 6rem ;
+    background: none;
+    color: white;
+    font-size: small;
+}
+.navBar{
+    width: 100%;
+    float: left;
+    position:fixed;
+    z-index: 100;
+}
+.navBar_scroll{
+    background: white;
+}
+.logo{
+    width: 30%;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin: 35px 0px 10px;   
+}
+.nav-items{
+    width: 70%;
+    float: left;
+    position: relative;
+    margin-top: 40px;
+}
+.nav-items ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.navBarItems{
+    text-decoration: none;
+    float: left;
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    height: 29px;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.navBarItems_scroll{
+    color: black;
+    text-decoration: none;
+    float: left;
+    font-weight: bolder;
+    width: 100px;
+    height: 29px;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.ourStory{
+    width:100%;
+    height:500px;
+    float: left;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+}
+.ourStory img{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+}
+.ourStory h1{
+    color:#df4002;
+    font-size: 4rem;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.story{
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 93px;
+}
+.leftbox{
+    width: 45%;
+    float: left;
+    text-align: justify;
+}
+.rightbox{
+    width: 45%;
+    float: right;
+    text-align: justify;
+}
+.story img{
+    width: 200px;
+    height: 70px;
+    margin: 0 0 5% 30%;
+}
+.specialPackage{
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 600px;
+}
+.backgroundSP{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 600px;
+    filter: brightness(30%);
+}
+.carouselSP{
+    width: 70%;
+    margin-left: 180px;
+}
+.headerSP{
+    text-align: center;
+    position: relative;
+    margin: 20px;
+}
+.headerSP h1{
+    font-size: 3rem;
+    color: #df4002;
+}
+.headerSP img{
+    vertical-align: top;
+    width: 125px;
+}
+.carouselImgSP{
+    width: 70%;
+    float: left;
+    position: relative;
+    height: 22rem;
+}
+.carouselBoxSP{
+    background-color: white;
+    width: 50%;
+    height: 15rem;
+    float: left;
+    position: relative;
+    margin: 3.5rem -6rem 3.5rem;
+    padding: 2rem;
+}
+.carouselSP .carousel-indicators{
+    bottom: -70px !important;
+}
+.carouselBoxSP p{
+    font-size: 13px;
+}
+.carouselBoxSP h4{
+    font-weight: bold;
+}
+.buttonSP{
+    border: solid 1px #df4002;
+    width: 150px;
+    height: 30px;
+    background: none;
+    color:#df4002;
+    font-size: small;
+    font-weight: 600;
+}
+.feedBack{
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 600px;
+    padding: 0 10%;
+}
