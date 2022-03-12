@@ -8,19 +8,19 @@ const FeedBack = (props) => {
           <h1 className="mainTitle">Feedback</h1>
           <img src={seperator} />
         </div>
-        <form>
+        <form method="post" action="/">
             <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" name="email" aria-describedby="emailHelp" placeholder="Enter email" />
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div><br/>
             <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter Name" />
+                <input type="text" class="form-control" name="name" placeholder="Enter Name" />
             </div><br/>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Comments</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="comment">Comments</label>
+                <textarea class="form-control" name="comment" rows="3"></textarea>
             </div><br/>
             <button type="submit" 
                     id={props.value} 

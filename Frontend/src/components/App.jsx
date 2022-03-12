@@ -37,6 +37,14 @@ const App = () => {
      }
     };
      window.addEventListener('scroll', changeNavbarColor);
+
+  const [data, setData] = React.useState(null);
+
+  React.useEffect(() => {
+    fetch("/api")
+      .then((res) => res.json())
+      .then((data) => setData(data.message));
+  }, []);
     return <div>
         <Topbar />
         <Navbar scrollChange={colorChange} value={0} MouseEnter={MouseOver} MouseExit={MouseOut} />
@@ -44,6 +52,7 @@ const App = () => {
         <OurStory />
         <SpecialPackage value={2} MouseEnter={MouseOver} MouseExit={MouseOut} />
         <FeedBack value={2} MouseEnter={MouseOver} MouseExit={MouseOut} />
+        <p>{!data ? "Loading..." : data}</p>
     </div>
 }
 export default App;
