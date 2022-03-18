@@ -57,7 +57,11 @@ app.post("/", (req,res) =>{
         )
       }
     })
+    res.redirect("/sucess");
 });
+app.get("/sucess", (req,res) => {
+  res.sendFile(path.resolve(__dirname, '../Frontend/build', 'sucess.html'));
+})
 let port =process.env.PORT;
 if(port==null||port ==""){
   port = 5000;

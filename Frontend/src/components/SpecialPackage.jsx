@@ -15,7 +15,7 @@ const SpecialPackage = (props) => {
           <img src={seperator} />
         </div>
         
-<Carousel controls={false} className="carouselSP">
+<Carousel controls={false} className="carouselSP" id="specialPackage">
   <Carousel.Item>
     <img
       className="carouselImgSP d-block"

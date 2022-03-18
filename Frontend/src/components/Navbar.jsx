@@ -23,14 +23,14 @@ const Navbar = (props) => {
                             onMouseOut={props.MouseExit} 
                             className={props.scrollChange ? "navBarItems_scroll":"navBarItems"}
                             id={props.value}
-                            href="#">ABOUT US</a></li>
+                            href="#ourStory">ABOUT US</a></li>
                     <li>
                         <a 
                             onMouseOver={props.MouseEnter} 
                             onMouseOut={props.MouseExit} 
                             className={props.scrollChange ? "navBarItems_scroll":"navBarItems"} 
                             id={props.value}
-                            href="#">OFFER</a></li>
+                            href="#specialPackage">OFFER</a></li>
                     <li>
                         <a 
                             onMouseOver={props.MouseEnter} 

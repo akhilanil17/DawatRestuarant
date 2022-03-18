@@ -4,7 +4,7 @@ import Signature from "../images/about_sign.png";
 
 const OurStory = () => {
     return (
-        <div className="ourStory">
+        <div className="ourStory" id="ourStory">
             <img src={OurStoryBackground} />
             <h1 className="mainTitle">Our Story</h1>
             <div className="story">
