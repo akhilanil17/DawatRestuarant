@@ -1,12 +1,11 @@
 import React, { useState } from "react";
-import Topbar from "./Topbar";
 import FrontPage from "./FrontPage";
 import Navbar from "./Navbar";
 import OurStory from "./OurStory";
 import SpecialPackage from "./SpecialPackage";
 import FeedBack from "./FeedBack";
 
-const App = () => {
+const DashBoard = () => {
     const MouseOver = (event) => {
         if(event.target.id=== "1"){
             event.target.style.background = "#df4002";
@@ -46,7 +45,6 @@ const App = () => {
       .then((data) => setData(data.message));
   }, []);
     return <div>
-        <Topbar />
         <Navbar scrollChange={colorChange} value={0} MouseEnter={MouseOver} MouseExit={MouseOut} />
         <FrontPage value={1} MouseEnter={MouseOver} MouseExit={MouseOut} />
         <OurStory />
@@ -55,4 +53,4 @@ const App = () => {
         <p>{!data ? "Loading..." : data}</p>
     </div>
 }
-export default App;
+export default DashBoard;

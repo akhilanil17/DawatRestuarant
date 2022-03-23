@@ -43,7 +43,6 @@ app.post("/", (req,res) =>{
         feedback.save();
       }
       else{
-        console.log(result);
         Feedback.update(
           {email:result[0].email},
           {$push:{review:{comment:req.body.comment}}},
@@ -57,10 +56,10 @@ app.post("/", (req,res) =>{
         )
       }
     })
-    res.redirect("/sucess");
+    res.redirect("/success");
 });
-app.get("/sucess", (req,res) => {
-  res.sendFile(path.resolve(__dirname, '../Frontend/build', 'sucess.html'));
+app.get("/success", (req,res) => {
+  res.sendFile(path.resolve(__dirname, '../Frontend/build', 'index.html'));
 })
 let port =process.env.PORT;
 if(port==null||port ==""){
