@@ -18,10 +18,10 @@ const Topbar = () => {
         <div className="B">
         <ul>
             <li><a href="#"><img src={facebook} /></a></li>
-            <li><a href="#"></a><img src={twitter} /></li>
-            <li><a href="#"></a><img src={dribbble} /></li>
-            <li><a href="#"></a><img src={behance} /></li>
-            <li><a href="#"></a><img src={rss} /></li>
+            <li><a href="#"><img src={twitter} /></a></li>
+            <li><a href="#"><img src={dribbble} /></a></li>
+            <li><a href="#"><img src={behance} /></a></li>
+            <li><a href="#"><img src={rss} /></a></li>
         </ul>
         <div>
             <h6><button className="BookATable" href="#">BOOK A TABLE</button></h6>

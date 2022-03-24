@@ -65,7 +65,7 @@ const Navbar = (props) => {
                             onMouseOut={props.MouseExit} 
                             className={props.scrollChange ? "navBarItems_scroll":"navBarItems"}
                             id={props.value}
-                            href="#">CONTACT</a></li>
+                            href="#Contact">CONTACT</a></li>
                 </ul>
             </div>
         </div>

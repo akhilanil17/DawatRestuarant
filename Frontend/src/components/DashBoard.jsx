@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import OurStory from "./OurStory";
 import SpecialPackage from "./SpecialPackage";
 import FeedBack from "./FeedBack";
+import Contact from "./Contact";
 
 const DashBoard = () => {
     const MouseOver = (event) => {
@@ -50,7 +51,8 @@ const DashBoard = () => {
         <OurStory />
         <SpecialPackage value={2} MouseEnter={MouseOver} MouseExit={MouseOut} />
         <FeedBack value={2} MouseEnter={MouseOver} MouseExit={MouseOut} />
-        <p>{!data ? "Loading..." : data}</p>
+        <Contact />
+        {/* <p>{!data ? "Loading..." : data}</p> */}
     </div>
 }
 export default DashBoard;
