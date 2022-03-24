@@ -257,7 +257,7 @@ body{
     height: 600px;
     filter: brightness(30%);
 }
-.success h3,form{
+.success h3, .success form{
     position: relative;
     color: white;
     text-align: center;
