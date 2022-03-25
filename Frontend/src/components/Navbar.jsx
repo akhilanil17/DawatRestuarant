@@ -11,58 +11,42 @@ const Navbar = (props) => {
             <div className="nav-items subHeading2">
                 <ul>
                     <li>
-                        <a 
-                            onMouseOver={props.MouseEnter} 
-                            onMouseOut={props.MouseExit} 
+                        <a  
                             className={props.scrollChange ? "navBarItems_scroll":"navBarItems"} 
                             id={props.value}
                             href="#">HOME</a></li>
                     <li>
-                        <a 
-                            onMouseOver={props.MouseEnter} 
-                            onMouseOut={props.MouseExit} 
+                        <a  
                             className={props.scrollChange ? "navBarItems_scroll":"navBarItems"}
                             id={props.value}
                             href="#ourStory">ABOUT US</a></li>
                     <li>
-                        <a 
-                            onMouseOver={props.MouseEnter} 
-                            onMouseOut={props.MouseExit} 
+                        <a  
                             className={props.scrollChange ? "navBarItems_scroll":"navBarItems"} 
                             id={props.value}
                             href="#specialPackage">OFFER</a></li>
                     <li>
-                        <a 
-                            onMouseOver={props.MouseEnter} 
-                            onMouseOut={props.MouseExit} 
+                        <a  
                             className={props.scrollChange ? "navBarItems_scroll":"navBarItems"} 
                             id={props.value}
                             href="#">MENU</a></li>
                     <li>
-                        <a 
-                            onMouseOver={props.MouseEnter} 
-                            onMouseOut={props.MouseExit} 
+                        <a  
                             className={props.scrollChange ? "navBarItems_scroll":"navBarItems"} 
                             id={props.value}
                             href="#">TEAM</a></li>
                     <li>
-                        <a 
-                            onMouseOver={props.MouseEnter} 
-                            onMouseOut={props.MouseExit} 
+                        <a  
                             className={props.scrollChange ? "navBarItems_scroll":"navBarItems"} 
                             id={props.value}
                             href="#">BLOG</a></li>
                     <li>
-                        <a 
-                            onMouseOver={props.MouseEnter} 
-                            onMouseOut={props.MouseExit} 
+                        <a  
                             className={props.scrollChange ? "navBarItems_scroll":"navBarItems"}
                             id={props.value}
                             href="#Feedback">FEEDBACK</a></li>
                     <li>
-                        <a 
-                            onMouseOver={props.MouseEnter} 
-                            onMouseOut={props.MouseExit} 
+                        <a  
                             className={props.scrollChange ? "navBarItems_scroll":"navBarItems"}
                             id={props.value}
                             href="#Contact">CONTACT</a></li>

@@ -25,11 +25,7 @@ const SpecialPackage = (props) => {
     <div className="carouselBoxSP">
       <h4 className="subHeading1">40% off for 9"-12" pizza- Wed,<br/> Thu, Friday only</h4>
       <p>Pizza 12 inch + Side Dish + 1.5L Coke Bottle Only<br/> From 209,000<br/><br/></p>
-      <button 
-                  id={props.value} 
-                  onMouseOver={props.MouseEnter} 
-                  onMouseOut={props.MouseExit} 
-                  className="buttonSP">TODAYS MENU</button>
+      <button className="buttonSP">TODAYS MENU</button>
     </div>
   </Carousel.Item>
   <Carousel.Item>
@@ -41,11 +37,7 @@ const SpecialPackage = (props) => {
     <div className="carouselBoxSP">
       <h4 className="subHeading1">40% off for 9"-12" pizza- Wed,<br/> Thu, Friday only</h4>
       <p>Pizza 12 inch + Side Dish + 1.5L Coke Bottle Only<br/> From 209,000<br/><br/></p>
-      <button 
-                  id={props.value} 
-                  onMouseOver={props.MouseEnter} 
-                  onMouseOut={props.MouseExit} 
-                  className="buttonSP">TODAYS MENU</button>
+      <button className="buttonSP">TODAYS MENU</button>
     </div>
   </Carousel.Item>
   <Carousel.Item>
@@ -57,11 +49,7 @@ const SpecialPackage = (props) => {
     <div className="carouselBoxSP">
       <h4 className="subHeading1">40% off for 9"-12" pizza- Wed,<br/> Thu, Friday only</h4>
       <p>Pizza 12 inch + Side Dish + 1.5L Coke Bottle Only<br/> From 209,000<br/><br/></p>
-      <button 
-                  id={props.value} 
-                  onMouseOver={props.MouseEnter} 
-                  onMouseOut={props.MouseExit} 
-                  className="buttonSP">TODAYS MENU</button>
+      <button className="buttonSP">TODAYS MENU</button>
     </div>
   </Carousel.Item>
 </Carousel>

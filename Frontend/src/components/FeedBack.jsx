@@ -22,11 +22,7 @@ const FeedBack = (props) => {
                 <label for="comment">Comments</label>
                 <textarea class="form-control" name="comment" rows="3"></textarea>
             </div><br/>
-            <button type="submit" 
-                    id={props.value} 
-                    onMouseOver={props.MouseEnter} 
-                    onMouseOut={props.MouseExit}    
-                    className="buttonSP">Submit</button>
+            <button type="submit" className="buttonSP">Submit</button>
         </form>
         
     </div>)

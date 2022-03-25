@@ -25,11 +25,7 @@ const FrontPage = (props) => {
               <h3>Welcome To</h3>
               <h4> <strong>DAWAT</strong> CAFE & RESTUARANT</h4>
               <div>
-                <button 
-                  id={props.value} 
-                  onMouseOver={props.MouseEnter} 
-                  onMouseOut={props.MouseExit} 
-                  className="frontPageBox">RESERVATION NOW</button>
+                <button className="frontPageBox">RESERVATION NOW</button>
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -43,11 +39,7 @@ const FrontPage = (props) => {
               <h3>Our Menus</h3>
               <h4>SEE WHAT'S <strong>NEW</strong> TODAY</h4>
               <div>
-                <button 
-                  id={props.value} 
-                  onMouseOver={props.MouseEnter} 
-                  onMouseOut={props.MouseExit} 
-                  className="frontPageBox">TODAYS MENU</button>
+                <button className="frontPageBox">TODAYS MENU</button>
               </div>
             </Carousel.Caption>
           </Carousel.Item>
@@ -62,11 +54,7 @@ const FrontPage = (props) => {
               <h3>Get Ready</h3>
               <h4>TO <strong>JOIN</strong> WITH US</h4>
               <div>
-                <button 
-                  id={props.value} 
-                  onMouseOver={props.MouseEnter} 
-                  onMouseOut={props.MouseExit} 
-                  className="frontPageBox">BOOK A TABLE</button>
+                <button className="frontPageBox">BOOK A TABLE</button>
               </div>
             </Carousel.Caption>
           </Carousel.Item>

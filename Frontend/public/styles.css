@@ -16,8 +16,8 @@ body{
     height: 30px;
     padding-left: 60px;
     border-bottom: solid 1px white;
-    position: relative;
-    z-index: 10;
+    position: absolute;
+    z-index: 1000;
     float: left;
 }
 .topBar p{
@@ -58,6 +58,12 @@ body{
     font-size: 0.8rem;
     border: none;
     margin-top: -9px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: all 0.5s;
+}
+.BookATable:hover{
+    transform: scale(1.1,1.1);
 }
 .frontPage{
     width:100%;
@@ -89,6 +95,12 @@ body{
     background: none;
     color: white;
     font-size: small;
+    transition: all 0.5s;
+}
+.frontPageBox:hover{
+    background: #df4002;
+    transform: scale(1.05,1.05);
+    border-radius: 3px;
 }
 .navBar{
     width: 100%;
@@ -126,6 +138,10 @@ body{
     margin-top: 20px;
     font-size: 14px;
     text-align: center;
+    transition: all 0.3s;
+}
+.navBarItems:hover{
+    color: #df4002;
 }
 .navBarItems_scroll{
     color: black;
@@ -137,6 +153,10 @@ body{
     margin-top: 20px;
     font-size: 14px;
     text-align: center;
+    transition: all 0.3s;
+}
+.navBarItems_scroll:hover{
+    color: #df4002;
 }
 .ourStory{
     width:100%;
@@ -242,6 +262,13 @@ body{
     color:#df4002;
     font-size: small;
     font-weight: 600;
+    transition: all 0.5s;
+}
+.buttonSP:hover{
+    background: #df4002;
+    color: white;
+    transform: scale(1.05,1.05);
+    border-radius: 3px;
 }
 .feedBack{
     width: 100%;
