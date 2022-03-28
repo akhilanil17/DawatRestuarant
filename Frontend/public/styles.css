@@ -91,7 +91,7 @@ body{
     width: 200px;
     font-family: 'Lato', sans-serif;
     height: 30px;
-    margin: 1rem 21rem 6rem ;
+    margin: 1rem 0rem 6rem ;
     background: none;
     color: white;
     font-size: small;
@@ -104,74 +104,69 @@ body{
 }
 .navBar{
     width: 100%;
-    float: left;
-    position:fixed;
+    align-items: center;
+    display: flex;
+    position: fixed;
     z-index: 100;
+    transition: all 0.3s;
 }
 .navBar_scroll{
     background: white;
 }
 .logo{
-    width: 30%;
+    width: 150px;
     float: left;
     position: relative;
     text-align: center;
-    margin: 35px 0px 10px;   
+    cursor: pointer;
+    margin: 35px 80px 10px; 
+}
+.menuIcon{
+    display: none;
+    width: 25px;
+    cursor: pointer;
+    margin: 35px 10px 10px;
 }
 .nav-items{
-    width: 70%;
-    float: left;
-    position: relative;
-    margin-top: 40px;
+    flex: 1;
+    text-align: right;
 }
-.nav-items ul{
-    list-style-type: none;
-    overflow: hidden;
+.nav-items ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 45px 20px 10px;
 }
-.navBarItems{
+.nav-items ul li a{
     text-decoration: none;
-    float: left;
     color: white;
     font-weight: bolder;
-    width: 100px;
-    height: 29px;
-    margin-top: 20px;
     font-size: 14px;
-    text-align: center;
     transition: all 0.3s;
 }
-.navBarItems:hover{
+.nav-items ul li a:hover{
     color: #df4002;
 }
 .navBarItems_scroll{
-    color: black;
-    text-decoration: none;
-    float: left;
-    font-weight: bolder;
-    width: 100px;
-    height: 29px;
-    margin-top: 20px;
-    font-size: 14px;
-    text-align: center;
-    transition: all 0.3s;
+    color: black !important;
 }
 .navBarItems_scroll:hover{
-    color: #df4002;
+    color: #df4002 !important;
 }
 .ourStory{
     width:100%;
-    height:500px;
+    height:600px;
     float: left;
     position: relative;
     text-align: center;
     padding-top: 40px;
 }
-.ourStory img{
+.ourStoryBg{
     width: 100%;
     height: 200px;
     position: absolute;
     bottom: 0;
     display: block;
+    z-index: -1;
 }
 .ourStory h1{
     color:#df4002;
@@ -181,9 +176,9 @@ body{
     width: 100%;
 }
 .story{
-    width: 70%;
-    margin-left: 15%;
-    padding-top: 93px;
+    width: 100%;
+    padding: 10% 10% 0;
+    z-index: 2;
 }
 .leftbox{
     width: 45%;
@@ -195,10 +190,14 @@ body{
     float: right;
     text-align: justify;
 }
-.story img{
+.signature{
+    width: 100%;
+    float: left;
+}
+.storySignature{
     width: 200px;
     height: 70px;
-    margin: 0 0 5% 30%;
+    margin-top: 50px;
 }
 .specialPackage{
     width: 100%;
@@ -214,8 +213,9 @@ body{
     filter: brightness(30%);
 }
 .carouselSP{
-    width: 70%;
-    margin-left: 180px;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 .headerSP{
     text-align: center;
@@ -331,4 +331,100 @@ body{
 .contactLogo{
     position: relative;
     margin: 70px 20px 40px;
+}
+
+
+
+    
+@media only screen and (max-width:700px){
+    .topBar{
+        display: none;
+    }
+    .logo{
+        margin: 10px 20px 10px;
+    }
+    .menuIcon{
+        display: block;
+        margin: 15px 20px 10px;
+        transition: all 0.5s;
+    }
+    .menuIcon_rotate{
+        display: block;
+        margin: 15px 20px 10px;
+        width: 25px;
+        cursor: pointer;
+        transform: rotate(90deg);
+        transition: all 0.5s;
+    }
+    .nav-items ul{
+        width: 100%;
+        background:#df4002 ;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 100;
+    }
+    .nav-items ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .nav-items ul li a:hover{
+        color: black;
+    }
+    .navBarItems_scroll:hover{
+        color: white !important;
+    } 
+    .MenuList{
+        opacity: 0;
+        overflow: hidden;
+        max-height: 0px;
+        transition: all 0.5s !important;
+    }
+    .MenuList_click{
+        opacity: 1;
+        overflow: hidden;
+        max-height: 282px;
+        transition: all 0.5s !important;
+    }
+    .frontPage h3{
+        font-size: 2.5rem;
+    }
+    .frontPage h4{
+        font-size: 2.5rem;
+    }
+    .frontPageBox{
+        width: 150px;
+        margin: 1rem 0rem 9rem;
+    }
+    .carouselSP{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .carouselImgSP{
+        width: 77%;
+    }
+    .carouselBoxSP{
+        padding: 1.5rem;
+    }
+    .carouselBoxSP h4{
+        font-size: 17px;
+    }
+    .carouselBoxSP p{
+        font-size: 11px;
+    }
+    .buttonSP{
+        width: 125px;
+    }
+    .ourStory{
+        height: 700px;
+        padding-top: 10px;
+    }
+    .story{
+        padding: 0% 5% 0;
+    }
+    .storySignature{
+        margin-top: 5px;
+    }
+
 }
