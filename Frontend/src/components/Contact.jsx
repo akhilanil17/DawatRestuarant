@@ -1,5 +1,5 @@
 import React from "react";
-import Background from "../images/Footer_background.png";
+import Background from "../images/Footer_background.webp";
 import MainLogo from "../images/main_logo.png";
 import facebook from "../images/facebook-64.png";
 import twitter from "../images/twitter-64.png";

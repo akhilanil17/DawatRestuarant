@@ -1,5 +1,5 @@
 import React from "react";
-import OurStoryBackground from "../images/our_story_background.png";
+import OurStoryBackground from "../images/our_story_background.webp";
 import Signature from "../images/about_sign.png";
 
 const OurStory = () => {
