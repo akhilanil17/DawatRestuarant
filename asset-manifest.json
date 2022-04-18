@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/DawatRestuarant/static/css/main.434d85ca.css",
-    "main.js": "/DawatRestuarant/static/js/main.a7a4e4f6.js",
-    "static/media/Footer_background.webp": "/DawatRestuarant/static/media/Footer_background.948e1df2e462766d600a.webp",
-    "static/media/promo_slide_2.jpg": "/DawatRestuarant/static/media/promo_slide_2.70c5e3fb755a67b49c43.jpg",
-    "static/media/promo_slide_1.jpg": "/DawatRestuarant/static/media/promo_slide_1.25882a89dd0341c18e1e.jpg",
-    "static/media/promo_slide_3.jpg": "/DawatRestuarant/static/media/promo_slide_3.2db40cf2388595d00a0a.jpg",
-    "static/media/our_story_background.webp": "/DawatRestuarant/static/media/our_story_background.4f81490d844c328bcf99.webp",
-    "static/media/main_logo_black.png": "/DawatRestuarant/static/media/main_logo_black.655a346acd4cd582d3a9.png",
-    "index.html": "/DawatRestuarant/index.html",
-    "main.434d85ca.css.map": "/DawatRestuarant/static/css/main.434d85ca.css.map",
-    "main.a7a4e4f6.js.map": "/DawatRestuarant/static/js/main.a7a4e4f6.js.map"
+    "main.css": "/static/css/main.434d85ca.css",
+    "main.js": "/static/js/main.fab18a49.js",
+    "static/media/Footer_background.webp": "/static/media/Footer_background.948e1df2e462766d600a.webp",
+    "static/media/promo_slide_2.jpg": "/static/media/promo_slide_2.70c5e3fb755a67b49c43.jpg",
+    "static/media/promo_slide_1.jpg": "/static/media/promo_slide_1.25882a89dd0341c18e1e.jpg",
+    "static/media/promo_slide_3.jpg": "/static/media/promo_slide_3.2db40cf2388595d00a0a.jpg",
+    "static/media/our_story_background.webp": "/static/media/our_story_background.4f81490d844c328bcf99.webp",
+    "static/media/main_logo_black.png": "/static/media/main_logo_black.655a346acd4cd582d3a9.png",
+    "index.html": "/index.html",
+    "main.434d85ca.css.map": "/static/css/main.434d85ca.css.map",
+    "main.fab18a49.js.map": "/static/js/main.fab18a49.js.map"
   },
   "entrypoints": [
     "static/css/main.434d85ca.css",
-    "static/js/main.a7a4e4f6.js"
+    "static/js/main.fab18a49.js"
   ]
 }
