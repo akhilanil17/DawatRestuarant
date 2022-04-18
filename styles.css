@@ -1,0 +1,430 @@
+body{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif ;
+}
+.mainTitle{
+    font-family: 'Dancing Script', cursive;
+}
+.subHeading1{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.subHeading2{
+    font-family: 'Lato', sans-serif;
+}
+.topBar {
+    width: 100%;
+    height: 30px;
+    padding-left: 60px;
+    border-bottom: solid 1px white;
+    position: absolute;
+    z-index: 1000;
+    float: left;
+}
+.topBar p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 40%;
+    vertical-align: top;
+    font-size: 12px;
+    color: white;
+    margin-top: 8px;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.topBar img{
+    width: 14px;
+    margin: 13px;
+}
+.A, .B{
+    width:50%;
+    float: left;
+    text-align: center;
+}
+.B ul{
+    list-style-type: none;
+    overflow: hidden;
+    float: left;
+}
+.B li{
+    float: left;
+}
+.BookATable{
+    background: #df4002;
+    color: white;
+    width: 150px;
+    height: 30px;
+    float: left;
+    font-size: 0.8rem;
+    border: none;
+    margin-top: -9px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: all 0.5s;
+}
+.BookATable:hover{
+    transform: scale(1.1,1.1);
+}
+.frontPage{
+    width:100%;
+    margin-top: -52px;
+    position: relative !important;
+    float: left;
+}
+.frontPage img{
+    width:100%;
+    height: 640px;
+    margin-top: -52px;
+    filter: brightness(40%);
+    object-fit: cover;
+}
+.frontPage h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+}
+.frontPage h4{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 4rem;
+}
+.frontPageBox{
+    border: solid 1px white;
+    width: 200px;
+    font-family: 'Lato', sans-serif;
+    height: 30px;
+    margin: 1rem 0rem 6rem ;
+    background: none;
+    color: white;
+    font-size: small;
+    transition: all 0.5s;
+}
+.frontPageBox:hover{
+    background: #df4002;
+    transform: scale(1.05,1.05);
+    border-radius: 3px;
+}
+.navBar{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    transition: all 0.3s;
+}
+.navBar_scroll{
+    background: white;
+}
+.logo{
+    width: 150px;
+    float: left;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    margin: 35px 80px 10px; 
+}
+.menuIcon{
+    display: none;
+    width: 25px;
+    cursor: pointer;
+    margin: 35px 10px 10px;
+}
+.nav-items{
+    flex: 1;
+    text-align: right;
+}
+.nav-items ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 45px 20px 10px;
+}
+.nav-items ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.nav-items ul li a:hover{
+    color: #df4002;
+}
+.navBarItems_scroll{
+    color: black !important;
+}
+.navBarItems_scroll:hover{
+    color: #df4002 !important;
+}
+.ourStory{
+    width:100%;
+    height:600px;
+    float: left;
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+}
+.ourStoryBg{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    z-index: -1;
+}
+.ourStory h1{
+    color:#df4002;
+    font-size: 4rem;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.story{
+    width: 100%;
+    padding: 10% 10% 0;
+    z-index: 2;
+}
+.leftbox{
+    width: 45%;
+    float: left;
+    text-align: justify;
+}
+.rightbox{
+    width: 45%;
+    float: right;
+    text-align: justify;
+}
+.signature{
+    width: 100%;
+    float: left;
+}
+.storySignature{
+    width: 200px;
+    height: 70px;
+    margin-top: 50px;
+}
+.specialPackage{
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 600px;
+}
+.backgroundSP{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 600px;
+    filter: brightness(30%);
+}
+.carouselSP{
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.headerSP{
+    text-align: center;
+    position: relative;
+    margin: 20px;
+}
+.headerSP h1{
+    font-size: 3rem;
+    color: #df4002;
+}
+.headerSP img{
+    vertical-align: top;
+    width: 125px;
+}
+.carouselImgSP{
+    width: 70%;
+    float: left;
+    position: relative;
+    height: 22rem;
+}
+.carouselBoxSP{
+    background-color: white;
+    width: 50%;
+    height: 15rem;
+    float: left;
+    position: relative;
+    margin: 3.5rem -6rem 3.5rem;
+    padding: 2rem;
+}
+.carouselSP .carousel-indicators{
+    bottom: -70px !important;
+}
+.carouselBoxSP p{
+    font-size: 13px;
+}
+.carouselBoxSP h4{
+    font-weight: bold;
+}
+.buttonSP{
+    border: solid 1px #df4002;
+    width: 150px;
+    height: 30px;
+    background: none;
+    color:#df4002;
+    font-size: small;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.buttonSP:hover{
+    background: #df4002;
+    color: white;
+    transform: scale(1.05,1.05);
+    border-radius: 3px;
+}
+.feedBack{
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 600px;
+    padding: 0 10%;
+}
+.success img{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 600px;
+    filter: brightness(30%);
+}
+.success h3, .success form{
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.contactBG{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    filter: brightness(20%);
+}
+.contact{
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.contact p{
+    position: relative;
+    color: whitesmoke;
+    filter: brightness(70%);
+}
+.contact h6{
+    position: relative;
+    color: #df4002;
+    filter: brightness(70%);
+    font-size: 15px;
+}
+.contactIcons{
+    text-align: center;
+}
+.contactIcons a{
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+}
+.contactIcons img{
+    width: 18px;
+    height: 18px;
+    margin: 20px;
+    filter: brightness(70%);
+}
+.contactLogo{
+    position: relative;
+    margin: 70px 20px 40px;
+}
+
+
+
+    
+@media only screen and (max-width:700px){
+    .topBar{
+        display: none;
+    }
+    .logo{
+        margin: 10px 20px 10px;
+    }
+    .menuIcon{
+        display: block;
+        margin: 15px 20px 10px;
+        transition: all 0.5s;
+    }
+    .menuIcon_rotate{
+        display: block;
+        margin: 15px 20px 10px;
+        width: 25px;
+        cursor: pointer;
+        transform: rotate(90deg);
+        transition: all 0.5s;
+    }
+    .nav-items ul{
+        width: 100%;
+        background:#df4002 ;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 100;
+    }
+    .nav-items ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .nav-items ul li a:hover{
+        color: black;
+    }
+    .navBarItems_scroll:hover{
+        color: white !important;
+    } 
+    .MenuList{
+        opacity: 0;
+        overflow: hidden;
+        max-height: 0px;
+        transition: all 0.5s !important;
+    }
+    .MenuList_click{
+        opacity: 1;
+        overflow: hidden;
+        max-height: 282px;
+        transition: all 0.5s !important;
+    }
+    .frontPage h3{
+        font-size: 2.5rem;
+    }
+    .frontPage h4{
+        font-size: 2.5rem;
+    }
+    .frontPageBox{
+        width: 150px;
+        margin: 1rem 0rem 9rem;
+    }
+    .carouselSP{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .carouselImgSP{
+        width: 77%;
+    }
+    .carouselBoxSP{
+        padding: 1.5rem;
+    }
+    .carouselBoxSP h4{
+        font-size: 17px;
+    }
+    .carouselBoxSP p{
+        font-size: 11px;
+    }
+    .buttonSP{
+        width: 125px;
+    }
+    .ourStory{
+        height: 700px;
+        padding-top: 10px;
+    }
+    .story{
+        padding: 0% 5% 0;
+    }
+    .storySignature{
+        margin-top: 5px;
+    }
+
+}
